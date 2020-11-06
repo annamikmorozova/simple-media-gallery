@@ -1,0 +1,17 @@
+{
+  "name": "simple-media-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Simple Media Gallery Package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anna Morozova",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "redux": "^4.0.5",
+    "sass": "^1.29.0"
+  }
+}
