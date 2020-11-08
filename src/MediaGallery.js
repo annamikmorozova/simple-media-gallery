@@ -6,7 +6,6 @@ import {BiLeftArrow, BiRightArrow} from "react-icons/bi";
 class MediaGallery extends React.Component {
     constructor(props) {
         super(props);
-        console.log("HERE", this.props)
         this.state = {
             title: this.props.title,
             order: 0,
@@ -31,16 +30,19 @@ class MediaGallery extends React.Component {
     render() {
         return (
             <div>
-                <h1>
+                <h1 className="media-title">
                     {this.state.title}
                 </h1>
                 <div className="arrows">
-                    <button onClick={this.handlePrev} disabled={this.state.order === 0} type="button" className="arrow-left"><BiLeftArrow size={32} /></button>
-                    <button onClick={this.handleNext} disabled={this.state.order === this.state.media.length - 1} type="button" className="arrow-left"><BiRightArrow size={32} /></button>
+                    <button onClick={this.handlePrev} disabled={this.state.order === 0} type="button" className="arrow"><BiLeftArrow size={32} /></button>
+                    <button onClick={this.handleNext} disabled={this.state.order === this.state.media.length - 1} type="button" className="arrow"><BiRightArrow size={32} /></button>
                 </div> 
                 <div className="col">
                     <img className="media-gallery-img" src={this.state.media[this.state.order].imageUrl} alt={this.state.media[0].alt}/>
                 </div>
+                <h3 className="media-name">
+                    {this.state.media[this.state.order].name}
+                </h3>
             </div>
         );
     }
