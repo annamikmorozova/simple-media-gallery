@@ -1,8 +1,10 @@
 # Simple Media Gallery
 
+Simple Media Gallery is an open-source React.js component. It is a ready to use click-through media gallery.
+
 ## Preview
 
-![MediaExample](media/MediaExample.gif)
+![MediaExample](https://res.cloudinary.com/ditqevvs5/image/upload/v1604820396/simple-media-gallery/Gallery_jfzf9v.gif)
 
 ## Install
 ```
@@ -77,4 +79,4 @@ import Lusia from "./Lusia.jpg";
 | `media.imageUrl` | `String` | Required. Parameter for a media piece. This is the path to the image. |
 | `media.alt` | `String` | Required. Parameter for a media piece. This is the alt of the image. |
 
-![Icons](media/Icons.png)
+![Icons](https://res.cloudinary.com/ditqevvs5/image/upload/v1604817547/simple-media-gallery/Icons_hr88ld.png)

@@ -1,6 +1,6 @@
 {
   "name": "simple-media-gallery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple Media Gallery Package",
   "main": "./lib/MediaGallery.js",
   "scripts": {
@@ -8,6 +8,19 @@
   },
   "author": "Anna Morozova",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "simple-media-gallery",
+    "media-gallery",
+    "gallery",
+    "front-end",
+    "images",
+    "pictures",
+    "responsive-design",
+    "scroll-through",
+    "media"
+  ],
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -32,5 +45,8 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "connect": "^3.7.0"
   }
 }
